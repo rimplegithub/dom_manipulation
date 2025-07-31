@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 20px;
+    background-color: #e6f0fb;
+    color: #2d3436;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1rem;
+    color: #57606f;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+form button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Student List */
+#studentList {
+    margin-top: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0eaff;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    form {
+        width: 90%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Scrollable Container */
+#container {
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Optional Scrollbar Styling (Modern Browsers) */
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}

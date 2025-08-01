@@ -17,6 +17,7 @@ A simple Student Registration System built using **HTML**, **CSS**, and **JavaSc
 - JavaScript (DOM + localStorage)
 
 ## 📂 Folder Structure
+```
 /
 ├── src/
 │   ├── css/
@@ -24,7 +25,9 @@ A simple Student Registration System built using **HTML**, **CSS**, and **JavaSc
 │   ├── js/
 │   │   └── script.js
 │   ├── index.html
-├── README.md
+└──README.md 
+
+```
 
 
 

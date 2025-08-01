@@ -17,15 +17,16 @@ A simple Student Registration System built using **HTML**, **CSS**, and **JavaSc
 - JavaScript (DOM + localStorage)
 
 ## 📂 Folder Structure
-student-registration/
-│
-├── index.html # Main HTML file
-├── style.css # Stylesheet
-├── script.js # JavaScript logic
-└── README.md # Project description
+/
+├── src/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── index.html
+├── README.md
 
-## 📸 Sample Screenshot
-> Add a screenshot here once your UI is complete.
+
 
 ## 🚀 How to Use
 1. Clone or download this repo
@@ -39,6 +40,6 @@ student-registration/
 
 ## 📌 Author
 - Name: *Your Name*
-- GitHub: [your-github-username]()
+- GitHub: [rimplegithub](https://github.com/rimplegithub/dom_manipulation.git)
 
 
